@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaba Scripts</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #img {
+            width: 380px;
+            height: 450px;
+        }
+        #ai {
+            width: 112px;
+            height: 20px;
+            background-color: rgb(208, 170, 170);
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <img src="./1708447321102.jpg" alt="" id="img">
+    <br>
+    <button onclick="document.getElementById('img').src='face_smiling_slightly_icon_227326.png'">Smile</button>
+    <br>
+    <button onclick="document.getElementById('img').src='cartoon-sad-smile-face-emoticon-icon-in-flat-style-free-vector.jpg'">Without smile</button>
+    <span id="ai" onmouseover="this.innerHTML='Stay focues &';">Stay focues &</span>
+    <button onclick="document.getElementById('ai').innerHTML = 'Think different'">Click for more text </button>
+
+    
+</body>
+</html>
